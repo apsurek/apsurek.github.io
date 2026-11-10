@@ -17,13 +17,6 @@ ninja.data = [{
             window.location.href = "/papers/";
           },
         },{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/psurek_aleksander_cv.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
