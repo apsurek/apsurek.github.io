@@ -1,6 +1,6 @@
 <header>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav id="navbar" class="navbar navbar-light navbar-expand-lg {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
@@ -55,6 +55,12 @@
               {% endif %}
             </a>
           </li>
+
+          {% if site.data.socials.cv_pdf %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.data.socials.cv_pdf | relative_url }}">cv</a>
+            </li>
+          {% endif %}
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
@@ -117,11 +123,12 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          {% if site.data.socials.cv_pdf %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ site.data.socials.cv_pdf | relative_url }}">cv</a>
-            </li>
-          {% endif %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/assets/pdf/psurek_aleksander_research_statement.pdf' | relative_url }}">research statement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/assets/pdf/psurek_aleksander_teaching_statement.pdf' | relative_url }}">teaching statement</a>
+          </li>
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
