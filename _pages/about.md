@@ -32,3 +32,5 @@ PhD Candidate in Economics at George Mason University.
 My interests are in political economy, regulations, finance, and institutional design. I use a mix of empirics, game theory, computational methods, and lab experiments in my work.
 
 I have co-taught or assisted in teaching undergraduate-level managerial economics and summer research programs, as well as graduate-level computational economics, experimental economics, and microeconometrics.
+
+I am on the 2026-2027 job market. My job market paper, "Threats, Stakes, and Backlash: Evidence from the European Union on Economic Coercion within Organizations" investigates electoral behavior in Poland under varying exposure to an internal EU sanctioning regime using a quasi-experimental approach.
