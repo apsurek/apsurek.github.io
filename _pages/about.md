@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: George Mason University, Interdisciplinary Center for Economic Sciences
+subtitle: George Mason University, Interdisciplinary Center for Economic Science
 
 profile:
   align: right
