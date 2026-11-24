@@ -9,7 +9,7 @@ nav_order: 1
 
 ## Threats, Stakes, and Backlash: Evidence from the European Union on Economic Coercion within Organizations
 
-Aleksander Psurek · November 15, 2026 draft
+Aleksander Psurek · November 24, 2026 draft
 
 [Open or download the paper (PDF)]({{ '/assets/pdf/psurek_aleksander_jmp.pdf' | relative_url }})
 
